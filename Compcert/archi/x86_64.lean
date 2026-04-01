@@ -1,0 +1,22 @@
+import Compcert.flocq
+
+namespace Compcert
+namespace archi
+namespace x86_64
+
+def ptr64 : Bool := true
+
+def big_endian : Bool := false
+
+def align_int64 := 8
+def align_float64 := 8
+
+def splitlong := false
+
+def default_pl_64 : Bool × floats.nan_pl 53 := (false, sorry)
+
+def choose_nan_64 (s1: Bool) (pl1: floats.nan_pl 53) (s2: Bool) (pl2: floats.nan_pl 53) : Bool × floats.nan_pl 53 := (false, sorry)
+
+end x86_64
+end archi
+end Compcert
