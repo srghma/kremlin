@@ -17,3 +17,6 @@ jobs:
       uses: leanprover/lean-action@v1
       with:
         use-mathlib-cache: true
+
+    - name: Run smoke test
+      run: lake exe compcert
