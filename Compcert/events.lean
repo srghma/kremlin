@@ -1,8 +1,12 @@
-import Compcert.ast
-import Compcert.integers
-import Compcert.values
-import Compcert.memory
-import Compcert.globalenvs
+module
+
+public import Compcert.ast
+public import Compcert.integers
+public import Compcert.values
+public import Compcert.memory
+public import Compcert.globalenvs
+
+@[expose] public section
 
 namespace Compcert
 namespace events

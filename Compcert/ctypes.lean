@@ -1,6 +1,10 @@
-import Compcert.ast
-import Compcert.errors
-import Compcert.linking
+module
+
+public import Compcert.ast
+public import Compcert.errors
+public import Compcert.linking
+
+@[expose] public section
 
 namespace Compcert
 namespace ctypes

@@ -1,1 +1,3 @@
-import Compcert.archi.sorry
+module
+prelude
+public import Compcert.archi.sorry

@@ -1,8 +1,12 @@
-import Compcert.lib
-import Compcert.integers
-import Compcert.floats
-import Compcert.maps
-import Compcert.errors
+module
+
+public import Compcert.lib
+public import Compcert.integers
+public import Compcert.floats
+public import Compcert.maps
+public import Compcert.errors
+
+@[expose] public section
 
 namespace Compcert
 namespace ast

@@ -1,4 +1,8 @@
-import Compcert.flocq
+module
+
+public import Compcert.flocq
+
+@[expose] public section
 
 namespace Compcert
 namespace archi

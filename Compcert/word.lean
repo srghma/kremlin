@@ -1,8 +1,12 @@
-import Compcert.lib
-import Mathlib.Data.Int.Bitwise
-import Mathlib.Data.Nat.Bitwise
-import Mathlib.Data.PNat.Basic
-import Mathlib.Algebra.Ring.Basic
+module
+
+public import Compcert.lib
+public import Mathlib.Data.Int.Bitwise
+public import Mathlib.Data.Nat.Bitwise
+public import Mathlib.Data.PNat.Basic
+public import Mathlib.Algebra.Ring.Basic
+
+@[expose] public section
 
 /- * Parameterization by the word size, in bits. -/
 

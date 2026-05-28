@@ -1,6 +1,10 @@
-import Compcert.lib
-import Compcert.archi
-import Compcert.word
+module
+
+public import Compcert.lib
+public import Compcert.archi
+public import Compcert.word
+
+@[expose] public section
 
 namespace Compcert
 namespace floats

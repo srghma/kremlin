@@ -1,6 +1,10 @@
-import Compcert.ctypes
-import Compcert.cop
-import Compcert.globalenvs
+module
+
+public import Compcert.ctypes
+public import Compcert.cop
+public import Compcert.globalenvs
+
+@[expose] public section
 
 namespace Compcert
 namespace clight

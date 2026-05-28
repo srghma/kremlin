@@ -1,7 +1,11 @@
-import Compcert.lib
-import Compcert.integers
-import Compcert.floats
-import Compcert.ast
+module
+
+public import Compcert.lib
+public import Compcert.integers
+public import Compcert.floats
+public import Compcert.ast
+
+@[expose] public section
 
 namespace Compcert
 namespace values
