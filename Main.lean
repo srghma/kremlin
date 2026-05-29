@@ -1,7 +1,0 @@
-module
-public import Compcert
-
-@[expose] public section
-
-def main : IO Unit :=
-  IO.println s!"Compcert ported to Lean 4 successfully!"
