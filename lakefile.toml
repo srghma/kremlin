@@ -5,6 +5,10 @@ defaultTargets = ["Compcert"]
 [[lean_lib]]
 name = "Compcert"
 
+[[lean_exe]]
+name = "tests"
+root = "Tests.Basic"
+
 [[require]]
 name = "mathlib"
 scope = "leanprover-community"
