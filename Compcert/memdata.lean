@@ -1,6 +1,10 @@
-import Compcert.ast
-import Compcert.integers
-import Compcert.values
+module
+
+public import Compcert.ast
+public import Compcert.integers
+public import Compcert.values
+
+@[expose] public section
 
 namespace Compcert
 namespace memdata

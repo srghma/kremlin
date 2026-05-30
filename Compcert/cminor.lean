@@ -1,6 +1,10 @@
-import Compcert.events
-import Compcert.switch
-import Compcert.cop
+module
+
+public import Compcert.events
+public import Compcert.switch
+public import Compcert.cop
+
+@[expose] public section
 
 namespace Compcert
 namespace cminor

@@ -1,4 +1,8 @@
-import Compcert.lib
+module
+
+public import Compcert.lib
+
+@[expose] public section
 
 namespace Compcert
 namespace errors

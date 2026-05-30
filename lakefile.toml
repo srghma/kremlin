@@ -1,13 +1,9 @@
 name = "compcert"
 version = "0.1.0"
-defaultTargets = ["compcert"]
+defaultTargets = ["Compcert"]
 
 [[lean_lib]]
 name = "Compcert"
-
-[[lean_exe]]
-name = "compcert"
-root = "Main"
 
 [[require]]
 name = "mathlib"

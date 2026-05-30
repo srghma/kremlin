@@ -1,5 +1,9 @@
-import Compcert.lib
-import Compcert.word
+module
+
+public import Compcert.lib
+public import Compcert.word
+
+@[expose] public section
 
 /- Stub file for Flocq definitions -/
 

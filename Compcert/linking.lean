@@ -1,6 +1,10 @@
-import Compcert.ast
-import Compcert.maps
-import Compcert.lib
+module
+
+public import Compcert.ast
+public import Compcert.maps
+public import Compcert.lib
+
+@[expose] public section
 
 namespace Compcert
 namespace linking

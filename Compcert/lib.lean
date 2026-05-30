@@ -1,6 +1,10 @@
-import Mathlib.Data.Int.Basic
-import Mathlib.Data.Nat.Basic
-import Mathlib.Tactic.Basic
+module
+
+public import Mathlib.Data.Int.Basic
+public import Mathlib.Data.Nat.Basic
+public import Mathlib.Tactic.Basic
+
+@[expose] public section
 
 namespace Compcert
 

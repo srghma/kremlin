@@ -1,4 +1,8 @@
-import Compcert.values
+module
+
+public import Compcert.values
+
+@[expose] public section
 
 namespace Compcert
 namespace switch

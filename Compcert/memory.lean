@@ -1,7 +1,11 @@
-import Compcert.ast
-import Compcert.integers
-import Compcert.values
-import Compcert.memdata
+module
+
+public import Compcert.ast
+public import Compcert.integers
+public import Compcert.values
+public import Compcert.memdata
+
+@[expose] public section
 
 namespace Compcert
 namespace memory

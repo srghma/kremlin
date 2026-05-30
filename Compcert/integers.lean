@@ -1,6 +1,10 @@
-import Compcert.archi
-import Compcert.lib
-import Compcert.word
+module
+
+public import Compcert.archi
+public import Compcert.lib
+public import Compcert.word
+
+@[expose] public section
 
 namespace Compcert
 namespace integers

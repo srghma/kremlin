@@ -1,5 +1,9 @@
-import Compcert.ctypes
-import Compcert.memory
+module
+
+public import Compcert.ctypes
+public import Compcert.memory
+
+@[expose] public section
 
 namespace Compcert
 namespace cop
